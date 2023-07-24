@@ -1,7 +1,7 @@
 import { F11, F12 } from "./hurtado_pablo_test_javascript_algo_ex1.js";
 
 // F21 function accepts an array "A" with 9 elements
-function F21(A) {
+export function F21(A) {
   // Check the length of the array
   if (A.length !== 9) {
     document.body.innerHTML += "<p>Error: Array must have 9 elements.</p>";

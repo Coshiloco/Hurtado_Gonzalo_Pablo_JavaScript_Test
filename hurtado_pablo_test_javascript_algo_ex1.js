@@ -6,7 +6,7 @@ for (let i = 0; i < 9; i++) {
 }
 
 // F11 function reads the provided one-dimensional table and transfers it to "to_verify"
-function F11(table_digits) {
+export function F11(table_digits) {
   if (table_digits.length !== 81) {
     errorOccurred = true;
     document.body.innerHTML = "Error: table_digits must have 81 elements.";
@@ -23,7 +23,7 @@ function F11(table_digits) {
 }
 
 // F12 function displays the content of "to_verify"
-function F12() {
+export function F12() {
   if (errorOccurred) {
     document.body.innerHTML =
       "Error: Provided table does not have 81 elements.";
