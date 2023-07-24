@@ -1,4 +1,4 @@
-import { F11, F12 } from "./hurtado_pablo_test_javascript_algo_ex1.js";
+import { F11, F12 } from "./hurtado_pablo_test_javascript_algo_ex1";
 
 // F21 function accepts an array "A" with 9 elements
 export function F21(A) {
